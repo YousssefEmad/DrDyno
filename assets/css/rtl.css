@@ -1,0 +1,62 @@
+
+/* RTL Css */
+
+
+body {
+	direction: rtl;
+	text-align: right;
+}
+
+.owl-carousel {
+	direction: ltr;
+}
+.banner-section .banner-slider-nav {
+    direction: ltr;
+}
+
+.main-menu .navigation>li:last-child {
+    margin-right: 35px !important;
+}
+
+ul.contactus-1-info-list li {
+    position: relative;
+    padding-right: 50px;
+    margin-bottom: 20px;
+}
+ul.contactus-1-info-list i {
+    position: absolute;
+    right: 0;
+	left: unset;
+}
+.projects-2-overlay{
+	padding-left: 30px;
+}
+
+.service-details-1-cat a i {
+    float: left !important;
+    margin-top: 3px;
+}
+
+.fa-long-arrow-right:before {
+    content: "\f177";
+}
+
+.details__inner__box span {
+    margin-left: 18px;
+    margin-right: 0px !important;
+    color: var(--theme-color);
+}
+.service_cat_1__icon_content {
+    margin-left: 20px;
+    margin-right: 0px ;
+}
+.sub-title{
+	padding-right: 30px;
+}
+.sub-title:before {
+    position: absolute;
+    content: '';
+    right: 0;
+	left: unset ;
+    top: 12px;
+}
